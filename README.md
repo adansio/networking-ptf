@@ -8,11 +8,11 @@ networking portfolio
 **Site-to-Site VPN + Terraform | 7x24 Production Ready**
 
 ## 🚀 Screenshots Live Lab
-![VPN Config](screenshot2-vpn-dashboard.png)
+![VPN Config](Screenshot2-vpn-dashboard.png)
 
-![Tunnel Details](screenshot3-vpn-details.png) 
+![Tunnel Details](Screenshot3-vpn-details.png) 
 
-![Route Propagation](screenshot4-route-propagation.png)
+![Route Propagation](Screenshot4-route-propagation.png)
 
 ## 💻 Terraform Automation
 ```bash
