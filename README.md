@@ -10,7 +10,7 @@ networking portfolio
 ## 🚀 Screenshots Live Lab
 ![VPN Config](Screenshot2-vpn-dashboard.png)
 
-![Tunnel Details](Screenshot3-vpn-details.png) 
+![Tunnel Details](Screenshot3-vpn-detail.png) 
 
 ![Route Propagation](Screenshot4-route-propagation.png)
 
