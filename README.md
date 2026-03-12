@@ -24,8 +24,11 @@
 terraform plan  # 4 resources ready
 ```
 
+## Multi-VPC
+
+**Hub-and-spoke architecture** | Cisco ACI → AWS scale | 1000+ VPCs ready
+
 #### Transit Gateway Multi-VPC (Scale)
 ![TGW Live](tgw-multi-vpc/Screenshot-dashboard.png)
-**Hub-and-spoke architecture** | Cisco ACI → AWS scale | 1000+ VPCs ready
 
 
