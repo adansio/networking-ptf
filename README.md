@@ -1,22 +1,24 @@
-# Adán Morales | Networking Specialist
-**10+ años Infra Crítica 7x24 | SDN → Cloud | Disponible Remote USD**
+# Adán Morales | Infrastructure Architect
+**10+ years Critical Infrastructure, Chilean Gov | AWS Networking | Remote USD**
 
 
 # networking-ptf
-🚀 networking portfolio
+🚀 Networking Portfolio
 
 
-# AWS VPN Hybrid 
+## AWS VPN Hybrid 
 
 **Site-to-Site VPN + Terraform | 7x24 Production Ready**
 
-##  Screenshots Live Lab
+###  Screenshots Live Lab
+#### Site-to-Site VPN Production-Ready
 ![VPN Config](vpn-hybrid_Screenshots/Screenshot2-vpn-dashboard.png)
 
 ![Tunnel Details](vpn-hybrid_Screenshots/Screenshot3-vpn-detail.png) 
 
+#### Route Propagation Active
 ![Route Propagation](vpn-hybrid_Screenshots/Screenshot4-route-propagation.png)
 
-## 💻 Terraform Automation
+### 💻 Terraform Automation
 ```bash
 terraform plan  # 4 resources ready
