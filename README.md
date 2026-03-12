@@ -1,5 +1,5 @@
 # Adán Morales | Infrastructure Architect
-**10+ years Critical Infrastructure (Chilean Gov and Telcos) | AWS Networking | Remote USD**
+**10+ years Critical Infrastructure (Chilean Government and Telcos) | AWS Networking | Remote USD**
 
 
 # networking-ptf
