@@ -48,5 +48,7 @@ $ terraform apply
 
 - Hosted Zone: onpremdomain.net (4 NS records)
 - A Record: www → Production IP
+- DNS Resolution LIVE:** `dig @AWS NS → OK`
 - Government DNS compliance standards
 
+![DNS Live](route53-dns-screens/Screenshot-dig.png)
