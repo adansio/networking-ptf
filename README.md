@@ -24,6 +24,15 @@
 terraform plan  # 4 resources ready
 ```
 
+### Terraform IaC - Production Deployed
+```bash
+$ terraform apply  
+```
+![Terraform Apply](vpn-s2s-terraform/Screenshot-apply.png)
+![Terraform Apply-end](vpn-s2s-terraform/Screenshot-apply-end.png)
+
+
+
 ## Multi-VPC
 
 **Hub-and-spoke architecture** | Cisco ACI → AWS scale | 1000+ VPCs ready
@@ -32,9 +41,3 @@ terraform plan  # 4 resources ready
 ![TGW Live](tgw-multi-vpc/Screenshot-dashboard.png)
 
 
-#### Terraform IaC - Production Deployed
-```bash
-$ terraform apply  
-```
-![Terraform Apply](vpn-s2s-terraform/Screenshot-apply.png)
-![Terraform Apply-end](vpn-s2s-terraform/Screenshot-apply-end.png)
