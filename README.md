@@ -56,11 +56,12 @@ $ terraform apply
 
 ## ⚖️ NLB High Availability Production
 ![NLB Healthy](NLB_screens/Screenshot-nlb-ready.png)
- **2/2 healthy targets** TCP:80 (99.99% SLA)
+ **Internet-facing** Multi-AZ ap-southeast-2a/b
+
+ **2x t2.micro** + Security Group enterprise
 
 ![NLB service](NLB_screens/Screenshot-bknd.png)
- **Internet-facing** Multi-AZ ap-southeast-2a/b
- **2x t2.micro** + Security Group enterprise
+ **2/2 healthy targets** TCP:80 (99.99% SLA)
 
 ![NLB rr1](NLB_screens/Screenshot-nlb-serv1.png)
 ![NLB rr2](NLB_screens/Screenshot-nlb-serv2.png)
