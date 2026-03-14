@@ -62,6 +62,6 @@ $ terraform apply
 ![NLB Healthy](NLB_screens/Screenshot-nlb-ready.png)
  **2/2 healthy targets** TCP:80 (99.99% SLA)
 
-![NLB rr](NLB_screens/Screenshot-serv1.png)
-![NLB rr](NLB_screens/Screenshot-serv2.png)
+![NLB rr](NLB_screens/Screenshot-nlb-serv1.png)
+![NLB rr](NLB_screens/Screenshot-nlb-serv2.png)
  **Web round-robin LIVE:** Server1 ↔ Server2
