@@ -41,3 +41,12 @@ $ terraform apply
 ![TGW Live](tgw-multi-vpc_screens/Screenshot-dashboard.png)
 
 
+
+## 🌐 AWS Route53 - Enterprise DNS
+![Hosted Zone](route53-dns-screens/Screenshot-hostedZone-regA.png)
+**onPrem public/private DNS -> AWS Route53 migration**
+
+- Hosted Zone: onpremdomain.net (4 NS records)
+- A Record: www → Production IP
+- Government DNS compliance standards
+
