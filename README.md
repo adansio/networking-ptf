@@ -12,12 +12,12 @@
 
 ###  Screenshots Live Lab
 #### Site-to-Site VPN Production-Ready
-![VPN Config](vpn-hybrid_Screenshots/Screenshot2-vpn-dashboard.png)
+![VPN Config](vpn-hybrid_screens/Screenshot2-vpn-dashboard.png)
 
-![Tunnel Details](vpn-hybrid_Screenshots/Screenshot3-vpn-detail.png) 
+![Tunnel Details](vpn-hybrid_screens/Screenshot3-vpn-detail.png) 
 
 #### Route Propagation Active
-![Route Propagation](vpn-hybrid_Screenshots/Screenshot4-route-propagation.png)
+![Route Propagation](vpn-hybrid_screens/Screenshot4-route-propagation.png)
 
 ### 💻 Terraform Automation
 ```bash
@@ -28,8 +28,8 @@ terraform plan  # 4 resources ready
 ```bash
 $ terraform apply  
 ```
-![Terraform Apply](vpn-s2s-terraform/Screenshot-apply.png)
-![Terraform Apply-end](vpn-s2s-terraform/Screenshot-apply-end.png)
+![Terraform Apply](vpn-s2s-terraform_screens/Screenshot-apply.png)
+![Terraform Apply-end](vpn-s2s-terraform_screens/Screenshot-apply-end.png)
 
 
 
@@ -38,6 +38,6 @@ $ terraform apply
 **Hub-and-spoke architecture** | Cisco ACI → AWS scale | 1000+ VPCs ready
 
 #### Transit Gateway Multi-VPC (Scale)
-![TGW Live](tgw-multi-vpc/Screenshot-dashboard.png)
+![TGW Live](tgw-multi-vpc_screens/Screenshot-dashboard.png)
 
 
