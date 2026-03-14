@@ -48,7 +48,20 @@ $ terraform apply
 
 - Hosted Zone: onpremdomain.net (4 NS records)
 - A Record: www → Production IP
-- DNS Resolution LIVE:** `dig @AWS NS → OK`
 - Government DNS compliance standards
 
 ![DNS Live](route53-dns-screens/Screenshot-dig.png)
+**DNS Resolution LIVE:** `dig @AWS NS → OK`
+
+
+## ⚖️ NLB High Availability Production
+![NLB service](NLB_screens/Screenshot-bknd.png)
+ **Internet-facing** Multi-AZ ap-southeast-2a/b
+ **2x t2.micro** + Security Group enterprise
+
+![NLB Healthy](NLB_screens/Screenshot-nlb-ready.png)
+ **2/2 healthy targets** TCP:80 (99.99% SLA)
+
+![NLB rr](NLB_screens/Screenshot-serv1.png)
+![NLB rr](NLB_screens/Screenshot-serv2.png)
+ **Web round-robin LIVE:** Server1 ↔ Server2
