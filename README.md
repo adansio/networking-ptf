@@ -32,3 +32,9 @@ terraform plan  # 4 resources ready
 ![TGW Live](tgw-multi-vpc/Screenshot-dashboard.png)
 
 
+#### Terraform IaC - Production Deployed
+```bash
+$ terraform apply  
+```
+![Terraform Apply](vpn-s2s-terraform/Screenshot-apply)
+![Terraform Apply-end](vpn-s2s-terraform/Screenshot-apply-end)
