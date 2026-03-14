@@ -57,7 +57,6 @@ $ terraform apply
 ## ⚖️ NLB High Availability Production
 ![NLB Healthy](NLB_screens/Screenshot-nlb-ready.png)
  **Internet-facing** Multi-AZ ap-southeast-2a/b
-
  **2x t2.micro** + Security Group enterprise
 
 ![NLB service](NLB_screens/Screenshot-bknd.png)
