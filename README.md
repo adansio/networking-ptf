@@ -36,5 +36,5 @@ terraform plan  # 4 resources ready
 ```bash
 $ terraform apply  
 ```
-![Terraform Apply](vpn-s2s-terraform/Screenshot-apply)
-![Terraform Apply-end](vpn-s2s-terraform/Screenshot-apply-end)
+![Terraform Apply](vpn-s2s-terraform/Screenshot-apply.png)
+![Terraform Apply-end](vpn-s2s-terraform/Screenshot-apply-end.png)
