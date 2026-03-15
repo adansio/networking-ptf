@@ -1,30 +1,26 @@
 # Adán Morales | Infrastructure Architect
-**10+ years Critical Infrastructure (Chilean Government and Telcos) | AWS Networking | Remote USD**
+**10+ yrs Critical Infrastructure (Chilean Government and Telcos) | AWS Networking | Remote USD**
 
 
-# networking-ptf
-🚀 Networking Portfolio
-
+# 🚀 Networking Portfolio
+Screenshots Live Lab
 
 ## AWS VPN Hybrid 
-
-**Site-to-Site VPN + Terraform | 7x24 Production Ready**
-
-###  Screenshots Live Lab
-#### Site-to-Site VPN Production-Ready
+### Site-to-Site VPN Production-Ready
 ![VPN Config](vpn-hybrid_screens/Screenshot2-vpn-dashboard.png)
 
 ![Tunnel Details](vpn-hybrid_screens/Screenshot3-vpn-detail.png) 
+**Site-to-Site VPN + Terraform | 7x24 Production Ready**
 
-#### Route Propagation Active
+### Route Propagation Active
 ![Route Propagation](vpn-hybrid_screens/Screenshot4-route-propagation.png)
 
-### 💻 Terraform Automation
+
+## 💻 Terraform IaC - Production Deployed
 ```bash
-terraform plan  # 4 resources ready
+terraform plan  # 3 resources ready
 ```
 
-### Terraform IaC - Production Deployed
 ```bash
 $ terraform apply  
 ```
@@ -37,7 +33,7 @@ $ terraform apply
 
 **Hub-and-spoke architecture** | Cisco ACI → AWS scale | 1000+ VPCs ready
 
-#### Transit Gateway Multi-VPC (Scale)
+### Transit Gateway Multi-VPC (Scale)
 ![TGW Live](tgw-multi-vpc_screens/Screenshot-dashboard.png)
 
 
@@ -54,7 +50,7 @@ $ terraform apply
 **DNS Resolution LIVE:** `dig @AWS NS → OK`
 
 
-## ⚖️ NLB High Availability Production
+## ⚖️  NLB High Availability Production
 ![NLB Healthy](NLB_screens/Screenshot-nlb-ready.png)
  **Internet-facing** Multi-AZ ap-southeast-2a/b
  **2x t2.micro** + Security Group enterprise
