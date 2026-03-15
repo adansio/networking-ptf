@@ -18,7 +18,9 @@ Screenshots Live Lab
 
 ## 💻 Terraform IaC - Production Deployed
 ```bash
-terraform plan  # 3 resources ready
+$ terraform plan  # 3 resources ready
+...
+Plan: 3 to add, 0 to change, 0 to destroy.
 ```
 
 ```bash
@@ -31,11 +33,9 @@ $ terraform apply
 
 ## Multi-VPC
 
-**Hub-and-spoke architecture** | Cisco ACI → AWS scale | 1000+ VPCs ready
-
 ### Transit Gateway Multi-VPC (Scale)
 ![TGW Live](tgw-multi-vpc_screens/Screenshot-dashboard.png)
-
+**Hub-and-spoke architecture** | Cisco ACI → AWS scale | 1000+ VPCs ready
 
 
 ## 🌐 AWS Route53 - Enterprise DNS
