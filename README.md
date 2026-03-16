@@ -5,7 +5,7 @@
 # 🚀 Networking Portfolio
 Screenshots Live Lab
 
-## AWS VPN Hybrid 
+## 🌉 AWS VPN Hybrid 
 ### Site-to-Site VPN Production-Ready
 ![VPN Config](vpn-hybrid_screens/Screenshot2-vpn-dashboard.png)
 
@@ -31,7 +31,7 @@ $ terraform apply
 
 
 
-## Multi-VPC
+## 🏢 Multi-VPC
 
 ### Transit Gateway Multi-VPC (Scale)
 ![TGW Live](tgw-multi-vpc_screens/Screenshot-dashboard.png)
