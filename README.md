@@ -28,7 +28,7 @@ $ terraform apply
 ```
 ![Terraform Apply](vpn-s2s-terraform/Screenshot-apply.png)
 ![Terraform Apply-end](vpn-s2s-terraform/Screenshot-apply-end.png)
-![main.tf Terraform](vpn-s2s-terraform/vpn-hybrid.tf)
+![Terraform code: vpn-hybrid.tf](vpn-s2s-terraform/vpn-hybrid.tf)
 
 
 
