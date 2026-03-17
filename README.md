@@ -62,3 +62,19 @@ $ terraform apply
 ![NLB rr1](NLB_screens/Screenshot-nlb-serv1.png)
 ![NLB rr2](NLB_screens/Screenshot-nlb-serv2.png)
  **Web round-robin LIVE:** Server1 ↔ Server2
+
+## ☸️  EKS Cluster Production 
+![Cluster creation](EKS-production/create-cluster.sh)
+![Cluster scalation](EKS-production/scale-cluster.sh)
+```bash
+chmod +x *-cluster.sh
+./create-cluster.sh
+./scale-cluster.sh
+```
+
+![EKS Cluster](EKS-production/Screenshot-CLI-outputs.png)
+**samui-portfolio** Kubernetes 1.34 ACTIVE
+**ko-samui-nodes** 🏗️ 1x t3.small READY (-> scaling 2x)
+
+![EKS aws](EKS-production/Screenshot-aws-console.png)
+
