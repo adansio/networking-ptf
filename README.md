@@ -26,8 +26,9 @@ Plan: 3 to add, 0 to change, 0 to destroy.
 ```bash
 $ terraform apply  
 ```
-![Terraform Apply](vpn-s2s-terraform_screens/Screenshot-apply.png)
-![Terraform Apply-end](vpn-s2s-terraform_screens/Screenshot-apply-end.png)
+![Terraform Apply](vpn-s2s-terraform/Screenshot-apply.png)
+![Terraform Apply-end](vpn-s2s-terraform/Screenshot-apply-end.png)
+[main.tf Terraform](vpn-s2s-terraform/vpn-hybrid.tf)
 
 
 
