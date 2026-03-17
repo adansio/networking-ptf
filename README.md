@@ -65,6 +65,7 @@ $ terraform apply
 
 ## ☸️  EKS Cluster Production 
 ![Cluster creation](EKS-production/create-cluster.sh)
+
 ![Cluster scalation](EKS-production/scale-cluster.sh)
 ```bash
 chmod +x *-cluster.sh
@@ -73,7 +74,7 @@ chmod +x *-cluster.sh
 ```
 
 ![EKS Cluster](EKS-production/Screenshot-CLI-outputs.png)
-**samui-portfolio** Kubernetes 1.34 ACTIVE
+**samui-portfolio** Kubernetes 1.34 ACTIVE  
 **ko-samui-nodes** 🏗️ 1x t3.small READY (-> scaling 2x)
 
 ![EKS aws](EKS-production/Screenshot-aws-console.png)
