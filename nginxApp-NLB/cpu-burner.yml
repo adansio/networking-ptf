@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cpu-burner-multi
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: burner
+  template:
+    metadata:
+      labels:
+        app: burner
+    spec:
+      containers:
+      - name: burner
+        image: busybox:1.28
+        command: ["/bin/sh"]
+        args:
+        - "-c"
+        - "while true; do wget -q -O- http://nginx-samui.default.svc.cluster.local/ ; done"
+        resources:
+          limits:
+            cpu: "50m"
