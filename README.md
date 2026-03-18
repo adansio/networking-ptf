@@ -86,15 +86,17 @@ chmod +x *-cluster.sh
 ## ☁️  EKS APPS + HPA SCALING
 ### Manual deploy and static scaling
 ![EKS Deploy](nginxApp-NLB/Screenshot-manual-scale.png) 
-**nginx manual deploy + scaling** NLB internet-facing with nginx backend
+**nginx manual deploy + scaling:** NLB internet-facing with Nginx backend
 
-### .yml deploy + auto-scaling READY
+### Auto-scaling + .yml deploy
+![nginx-deploy.yml](nginxApp-NLB/nginx-deploy.yml)
 ```bash
 kubectl apply -f nginx-deploy.yml
 ```
-![nginx-deploy.yml](nginxApp-NLB/nginx-deploy.yml)
 
 **Lab scaling**: setting cpu-burner 
+![cpu-burner.yml](nginxApp-NLB/cpu-burner.yml)
+
 ```bash
 kubectl apply -f cpu-burner.yml
 ```
