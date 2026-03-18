@@ -84,24 +84,24 @@ chmod +x *-cluster.sh
 ![EKS aws](EKS-production/Screenshot-aws-console.png)
 
 ## ☁️  EKS APPS + HPA SCALING
-### Manual deploy and static scaling
+### Manual deploy + static scaling
 ![EKS Deploy](nginxApp-NLB/Screenshot-manual-scale.png) 
-**nginx manual deploy + scaling:** NLB internet-facing with Nginx backend
+**Nginx manual deploy + scaling:** NLB internet-facing with Nginx backend
 
-### Auto-scaling + .yml deploy
+### Auto-scaling + YML deploy
 ![nginx-deploy.yml](nginxApp-NLB/nginx-deploy.yml)
 ```bash
 kubectl apply -f nginx-deploy.yml
 ```
 
-**Lab scaling**: setting cpu-burner 
+**Lab scaling**: setting cpu-burner  
 ![cpu-burner.yml](nginxApp-NLB/cpu-burner.yml)
 
 ```bash
 kubectl apply -f cpu-burner.yml
 ```
 ![HPA Scaling](nginxApp-NLB/Screenshot-auto-scale.png) 
-**HPA 50% cpu utilization** -> autoscaling
+**HPA 50% cpu utilization** -> Autoscaling
 
 ![itworks](nginxApp-NLB/Screenshot-stillworking.png)
 **Web still working** 
