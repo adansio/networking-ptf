@@ -114,7 +114,7 @@ Workflow to apply (manual) by dispatcher.
 #### VPC base
 VPC creation with subnets pairs in different AZ by each pair.  
 Architecture proposal: layer isolation [DMZ -> FrontEnd -> App -> BD].  
-  - Available to set up public Load-Balancer in DMZ with private targets in FrontEnd Layer.  
+&emsp; Available to set up public Load-Balancer in DMZ with private targets in FrontEnd Layer.  
 Internet GW creation to publicate the web services to internet (Lab env, just only 1 IG deployed in public subnet, to get HA, create a 2nd IG over another zone).   
 NAT GW creation associated to privates subnets, to allow secure internet access from (ej: EC2 instances) to get patches or repos.  
 VPC Endpoint with SSM, to secure admin access.  
