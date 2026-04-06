@@ -108,15 +108,15 @@ kubectl apply -f cpu-burner.yml
 
 ## (CI/CD) VPC + features | Deployed with Terraform vía Github Actions 
 #### Github + AWS
-Github and AWS integration with OIDC.  
-Workflow to get "plan" by PR.  
-Workflow to apply (manual) by dispatcher.
+· Github and AWS integration with OIDC.  
+· Workflow to get "plan" by PR.  
+· Workflow to apply (manual) by dispatcher.
 #### VPC base
 · VPC creation with subnets pairs in different AZ by each pair.  
 · Architecture proposal: layer isolation [DMZ -> FrontEnd -> App -> BD].  
-&emsp; · Available to set up public Load-Balancer in DMZ with private targets in FrontEnd Layer.  
+&emsp; Available to set up public Load-Balancer in DMZ with private targets in FrontEnd Layer.  
 · Internet GW creation to publicate the web services to internet (Lab env, just only 1 IG deployed in public subnet, to get HA, create a 2nd IG over another zone).   
 · NAT GW creation associated to privates subnets, to allow secure internet access from (ej: EC2 instances) to get patches or repos.  
 · VPC Endpoint with SSM, to secure admin access.  
 · SGs creations to allow/restrict conectivity inter-layer.  
-&emsp; · Available to integrate with CloudFront + S3 to serve static content.   
+&emsp; Available to integrate with CloudFront + S3 to serve static content.   
