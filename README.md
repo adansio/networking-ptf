@@ -145,4 +145,7 @@ Enterprise VPC with layer isolation. CI/CD with Github Actions + Terraform
 ![Terraform destroy](setlist1/screenshots/Screenshot_destroyDispatcher.png)
 ![Terraform destroy output](setlist1/screenshots/Screenshot_destroyOK.png)
 
+More details in:  
+https://github.com/adansio/networking-ptf/tree/main/setlist1
+
 
