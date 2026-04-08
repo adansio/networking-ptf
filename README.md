@@ -140,3 +140,9 @@ Enterprise VPC with layer isolation. CI/CD with Github Actions + Terraform
 ![Terraform apply](setlist1/screenshots/Screenshot_dispatcher_apply.png)
 ![Terraform apply output](setlist1/screenshots/Screenshot_applyOK.png)
 ![Terraform apply resume](setlist1/screenshots/Screenshot_apply-resume.png)
+
+- Workflow to destroy (manual) by dispatcher.
+![Terraform destroy](setlist1/screenshots/Screenshot_dispatcherDispatcher.png)
+![Terraform destroy output](setlist1/screenshots/Screenshot_destroyOK.png)
+
+
