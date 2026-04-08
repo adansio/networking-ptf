@@ -1,7 +1,7 @@
 ## Setlist1
 ### Part 1: Medular
 - VPC creation with 4 subnets pairs in different AZ by each pair.  
-- Each pair corrsponds to layer separation: DMZ -> FrontEnd -> App -> BD.  
+- Each pair corrsponds to layer isolation: DMZ -> FrontEnd -> App -> BD.  
     - Available to set up public Load-Balancer in DMZ with private targets in FrontEnd Layer.
 - Internet GW creation to publicate the web services to internet. Because is a Lab env, just only 1 IG deployed in public subnet, to get HA, create a 2nd IG over another zone.  
 - NAT GW creation associated to privates subnets, to allow secure internet access from (ej: EC2 instances) to get patches or repos.
@@ -31,11 +31,11 @@ IAM -> Identity Providers. Create pointing to token.actions.githubusercontent.co
 ### IAM (AWS)
 Create policy like: policy-terraform-lab-setlist1-creation.json  
 IAM Role with trust policy to repo  
-	like "github-actions-oidc-role_usado"  
+&emsp;like "github-actions-oidc-role_usado"  
 Add secrets to repo (ej AWS_REGION, AWS_ROLE_ARN  
 ```console
-		AWS_ROLE_ARN = arn:aws:iam::5444714XXXXX:oidc-provider
-		AWS_REGION = ap-southeast-X
+	AWS_ROLE_ARN = arn:aws:iam::5444714XXXXX:oidc-provider
+	AWS_REGION = ap-southeast-X
 ```  
 Permisos del workflow  
 ```console
