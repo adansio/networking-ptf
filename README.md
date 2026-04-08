@@ -106,6 +106,8 @@ kubectl apply -f cpu-burner.yml
 ![itworks](nginxApp-NLB/Screenshot-stillworking.png)
 **Web still working** 
 
+
+
 ## 🏗️ VPC + features | ️🔄 (CI/CD) Terraform & Github Actions 
 Enterprise VPC with layer isolation. CI/CD with Github Actions + Terraform
 
