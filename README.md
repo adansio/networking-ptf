@@ -106,17 +106,31 @@ kubectl apply -f cpu-burner.yml
 ![itworks](nginxApp-NLB/Screenshot-stillworking.png)
 **Web still working** 
 
-## (CI/CD) VPC + features | Deployed with Terraform vía Github Actions 
-#### Github + AWS
-· Github and AWS integration with OIDC.  
-· Workflow to get "plan" by PR.  
-· Workflow to apply (manual) by dispatcher.
-#### VPC base
-· VPC creation with subnets pairs in different AZ by each pair.  
-· Architecture proposal: layer isolation [DMZ -> FrontEnd -> App -> BD].  
+## 🏗️ VPC + features | ️🔄 (CI/CD) Terraform & Github Actions 
+Enterprise VPC with layer isolation. CI/CD with Github Actions + Terraform
+
+### Features
+🌐 VPC Multi-AZ: Subnets in pairs by AZ (HA).  
+🔒 Layer Isolation: DMZ → FrontEnd → App → BD | with Security Groups inter-layer.  
+![Layer Isolation](setlist1/screenshots/Screenshot_SGs.png)
+🚪 DMZ Layer: Internet Gateway to expose services to internet.  
 &emsp; Available to set up public Load-Balancer in DMZ with private targets in FrontEnd Layer.  
-· Internet GW creation to publicate the web services to internet (Lab env, just only 1 IG deployed in public subnet, to get HA, create a 2nd IG over another zone).   
-· NAT GW creation associated to privates subnets, to allow secure internet access from (ej: EC2 instances) to get patches or repos.  
-· VPC Endpoint with SSM, to secure admin access.  
-· SGs creations to allow/restrict conectivity inter-layer.  
+![Internet GW](setlist1/screenshots/Screenshot_IG.png)
+![EIP](setlist1/screenshots/Screenshot_EIP.png)
+🔐 Private Layers: NAT Gateway to secure access to internet (patches, repos).    
 &emsp; Available to integrate with CloudFront + S3 to serve static content.   
+![NAT GW](setlist1/screenshots/Screenshot_NATgw.png)
+
+🔗 VPC Endpoints: SSM to secure management access.  
+![SSM Endpoints](setlist1/screenshots/Screenshot_endpoints.png)
+
+### Github + AWS
+· Github and AWS integration with OIDC.  
+· Workflow to get "plan" by PR.
+![Pull Request](setlist1/screenshots/Screenshot_PR.png)
+![Terraform plan](setlist1/screenshots/Screenshot_planOK.png)
+![Terraform plan output](setlist1/screenshots/Screenshot_plan_output.png)
+· Workflow to apply (manual) by dispatcher.
+![Terraform apply](setlist1/screenshots/Screenshot_dispatcher_apply.png)
+![Terraform apply output](setlist1/screenshots/Screenshot_applyOK.png)
+![Terraform apply resume](setlist1/screenshots/Screenshot_apply-resume.png)
