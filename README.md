@@ -130,8 +130,8 @@ Enterprise VPC with layer isolation. CI/CD with Github Actions + Terraform
 ![SSM Endpoints](setlist1/screenshots/Screenshot_endpoints.png)
 
 ### Github + AWS
-- Github and AWS integration with OIDC.  
-- Workflow to get "plan" by PR.
+- CI/CD -> Github and AWS integration with OIDC.  
+- Workflow to get "plan" triggered by PR.
 ![Pull Request](setlist1/screenshots/Screenshot_PR.png)
 ![Terraform plan](setlist1/screenshots/Screenshot_planOK.png)
 ![Terraform plan output](setlist1/screenshots/Screenshot_plan_output.png)
@@ -147,5 +147,3 @@ Enterprise VPC with layer isolation. CI/CD with Github Actions + Terraform
 
 More details in:  
 https://github.com/adansio/networking-ptf/tree/main/setlist1
-
-
