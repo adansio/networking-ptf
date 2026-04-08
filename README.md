@@ -114,7 +114,7 @@ Enterprise VPC with layer isolation. CI/CD with Github Actions + Terraform
 ### Features
 **- VPC Multi-AZ:** Subnets in pairs by AZ (HA).  
 
-**Layer Isolation:** DMZ → FrontEnd → App → BD | with Security Groups inter-layer.  
+**- Layer Isolation:** DMZ → FrontEnd → App → BD | with Security Groups inter-layer.  
 ![Layer Isolation](setlist1/screenshots/Screenshot_SGs.png)  
 
 **- DMZ Layer:** Internet Gateway to expose services to internet.  
