@@ -112,30 +112,31 @@ kubectl apply -f cpu-burner.yml
 Enterprise VPC with layer isolation. CI/CD with Github Actions + Terraform
 
 ### Features
-**VPC Multi-AZ:** Subnets in pairs by AZ (HA).  
+**- VPC Multi-AZ:** Subnets in pairs by AZ (HA).  
+
 **Layer Isolation:** DMZ → FrontEnd → App → BD | with Security Groups inter-layer.  
 ![Layer Isolation](setlist1/screenshots/Screenshot_SGs.png)  
 
-**DMZ Layer:** Internet Gateway to expose services to internet.  
+**- DMZ Layer:** Internet Gateway to expose services to internet.  
 &emsp; Available to set up public Load-Balancer in DMZ with private targets in FrontEnd Layer.  
 ![Internet GW](setlist1/screenshots/Screenshot_IG.png)
 ![EIP](setlist1/screenshots/Screenshot_EIP.png)
 
-**Private Layers:** NAT Gateway to secure access to internet (patches, repos).    
+**- Private Layers:** NAT Gateway to secure access to internet (patches, repos).    
 &emsp; Available to integrate with CloudFront + S3 to serve static content.   
 ![NAT GW](setlist1/screenshots/Screenshot_NATgw.png)
 
-**VPC Endpoints:** SSM to secure management access.  
+**- VPC Endpoints:** SSM to secure management access.  
 ![SSM Endpoints](setlist1/screenshots/Screenshot_endpoints.png)
 
 ### Github + AWS
-· Github and AWS integration with OIDC.  
-· Workflow to get "plan" by PR.
+- Github and AWS integration with OIDC.  
+- Workflow to get "plan" by PR.
 ![Pull Request](setlist1/screenshots/Screenshot_PR.png)
 ![Terraform plan](setlist1/screenshots/Screenshot_planOK.png)
 ![Terraform plan output](setlist1/screenshots/Screenshot_plan_output.png)
 
-· Workflow to apply (manual) by dispatcher.
+- Workflow to apply (manual) by dispatcher.
 ![Terraform apply](setlist1/screenshots/Screenshot_dispatcher_apply.png)
 ![Terraform apply output](setlist1/screenshots/Screenshot_applyOK.png)
 ![Terraform apply resume](setlist1/screenshots/Screenshot_apply-resume.png)
